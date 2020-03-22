@@ -3,6 +3,9 @@ pushd apr
 mkdir build
 cd build
 
+where ninja
+ninja --version
+
 cmake ^
     -GNinja ^
     -DCMAKE_INSTALL_PREFIX=%LIBRARY_PREFIX% ^
